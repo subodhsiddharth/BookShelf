@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0px;
+    }
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: transparent;
+    border-left:2px grey solid;
+}
+
+
+::-webkit-scrollbar-thumb{
+    border-left: 2px white solid;
+    background-color:  rgb(255, 150, 64);  
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color:   rgb(253, 130, 29); 
+}
+
+
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#header{
+    opacity: 1;
+    color: rgb(244,128,36);
+    background-color: white;
+    border-bottom: 4px whitesmoke solid;
+    border-bottom-style: solid;
+    box-shadow: 5px 2px whitesmoke;
+}
+
+#header table tr td{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: rgb(244,128,36);
+}
+
+
+.Join button{
+    background-color: white;
+    margin-right: 4px;
+    padding: 6px;
+    font-weight: 300;
+    font-size: large;
+    color: rgb(244,128,36);
+    border: 0;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+.Join button:hover{
+    border: 3px whitesmoke solid;
+}
+
+
+.logIn button{
+    margin-right: 4px;
+    padding: 6px;
+    font-weight: 600;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(244,128,36);
+    background-color: white;
+    border:2px rgb(244,128,36) solid;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+}
+
+.logIn button:hover{
+    color: white;
+    background-color:rgb(244,128,36);
+    border: 3px rgb(244,128,36) solid;
+}
+
+
+                                          /*        10:14 03/10/2020         */
+
+
+.main {
+    width: 100%;
+    padding-top: 6rem;
+    background-color: rgb(244,128,36);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1rem;                   /*style  for join for ....*/
+    font-weight: 100;
+    padding-bottom: 8%;
+    margin: 0;
+
+}
+
+.main hr{
+    margin: 1rem ;
+    margin-left: 26%;
+    width: 50%;
+    height: 1px;
+    color: white;
+    
+}
+
+
+.altsign{
+    text-align: center;
+}
+
+
+.main .altsign button img{
+    width: 1.4rem;
+    height: 1.4rem;
+    padding-right: 10px;
+    margin-top: 2px;
+}
+
+
+.altsign button{
+    align-items: center;
+    border: 3px white solid ;
+    width: 20rem;
+    color: rgb(244,128,36);
+    padding-bottom: 1px;
+    font-size: 1.4rem;
+    border-radius: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.altsign button:hover{
+    background-color: rgb(244,128,36) ;
+    outline: none;
+    color: white;
+}
+
+
+input::placeholder {
+    color:  grey;  
+    
+}
+
+input {
+    border: 2px white solid;
+    border-radius: 4px;
+    color: rgb(255, 94, 0);
+    margin: 0.5rem;
+    font-size: large;
+    padding-left: 13px ;
+    outline: none;
+    height: 2rem;
+    width: 20rem;
+}
+
+                   /* sign up name first name last name */
+.name input{
+    width:9.5rem;
+}
+                     /* End of sign up */
+
+.submit button{
+    cursor: pointer;
+    align-items: center;
+    background-color:rgb(244,128,36);
+    border: 3px  white solid ;
+    width: 20rem;
+    color: white;
+    padding-bottom: 1px;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    font-weight: 200;
+    outline: none;
+}
+
+
+.submit button:hover{
+    background-color:white;
+    color: rgb(244,128,36);
+}
+
+#PasswordForgot{
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    border:0;
+    background-color: rgb(253, 130, 29);
+}
+
+
+
+.main span a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#forgotPassword{
+    visibility: hidden;
+    border: 2px grey solid;
+    border-radius: 8px;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    left: 32%;
+    top: 25%;
+    align-self: center;
+    padding: 5rem;
+}
+
+.forgot form input{
+    border: 1px grey solid;
+}
+
+#Forgotsubmit button{
+    border: 2x whitesmoke solid;
+    cursor: pointer;
+    background-color:rgb(244,128,36);
+    width: 20rem;
+    color: white;
+    padding: 2px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+    font-weight: 200;
+}
+
+#Forgotsubmit button:hover{
+    border: 2x rgb(244,128,36) solid;
+    color: rgb(244,128,36);
+    background-color: white;
+}
+
+#ForgotCross{
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.text1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top:30px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 1rem;                   /*style  for join for ....*/
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.text1 span a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.text1 abbr{
+    text-decoration: none;
+}
+
+.text2{
+    font-weight: 50;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+
+.form button{
+    background-color:  rgb(244,128,36);
+    border: 2px whitesmoke solid ;
+    color: white;
+    width: 10rem;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    font-weight: 300;
+}

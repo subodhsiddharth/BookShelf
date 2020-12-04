@@ -1,0 +1,333 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0px;
+    }
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: transparent;
+    border-left:2px grey solid;
+}
+
+
+::-webkit-scrollbar-thumb{
+    border-left: 2px rgba(76, 86, 98, 0.945) solid;
+    background-color:  rgba(59, 78, 84, 0.945);  
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color:   rgba(76, 86, 98, 0.945); 
+}
+
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    opacity: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    color: rgb(3,40,75);
+    position: fixed;
+    background-color: white;
+    border-bottom: 2px whitesmoke solid;
+    border-bottom-style: solid;
+    box-shadow: 5px 2px whitesmoke whitesmoke;
+}
+
+
+#header table tr td{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+    font-weight: 100;
+    color: rgb(3,40,75);
+}
+
+
+
+#TopOption{
+    opacity: 0;
+}
+
+#TopOption button img{
+    border: none;
+    background-color: transparent;
+}
+
+#TopOption button{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+
+.Join button{
+    background-color: white;
+    margin-right: 4px;
+    padding: 6px;
+    font-weight: 600;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(3,40,75);
+    border: 0;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+.Join button:hover{
+    border: 3px whitesmoke solid;
+}
+
+
+.logIn button{
+    margin-right: 4px;
+    padding: 6px;
+    font-weight: 600;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(3,40,75);
+    background-color: white;
+    border:2px rgb(3,40,75) solid;
+    cursor: pointer;
+    outline: none;
+}
+
+.logIn button:hover{
+    color: white;
+    background-color:rgb(3,40,75);
+    border: 2px rgb(3,40,75) solid;
+}
+
+.headspace {
+    color: white;
+    height: 10%;
+}
+
+
+
+#TempHead{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    opacity: 1;
+    color: rgb(3,40,75);
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 10%;
+    right: 0%;
+    background-color: white;
+    font-size: 1rem;
+    border: 4px whitesmoke solid;
+    border-top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    width: 100%;
+    height: 4.2%;
+
+}
+
+
+#TempHead TR TD button{
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    margin-top: 4px;
+    background-color: transparent;
+    width: fit-content;
+}
+
+#TempHead TR TD a{
+    text-decoration: none;
+    color: rgb(3,40,75);
+
+}
+
+
+
+#hflex-box {          /*horizontal flex */
+    visibility: hidden;
+    z-index: 2;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    font-size: large;
+    width: 10%;
+    height: fit-content;
+    position: fixed;
+    top: 7%;
+    left: 77%;
+    display: flex;
+    flex-direction: column;   
+}
+
+
+#main{
+}
+
+
+#back{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 90%;
+}
+
+
+
+#flex-box{
+    visibility: hidden;
+    box-shadow: 0px 0px 0px 2000px rgba(0,0,0,0.2);
+    z-index: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(3,40,75);
+    position: fixed;
+    top: 15%;
+    height: 89%;
+    left:0rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    padding: 2rem;
+    border: 2px whitesmoke solid;
+}
+
+
+#flex-box div{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: white;
+    color: rgb(3,40,75);
+    align-self: center;
+    width: 70%;
+    height: max-content;
+    margin-top: 2rem;
+    border: 2px rgb(3,40,75) solid;
+}
+
+
+#flex-box div:hover{
+    color: white;
+    background-color: rgb(3,40,75);
+    
+}
+
+
+#flex-box button{
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    position: relative;
+    top: -1.8rem;
+    left: -1.8rem;
+    width: 20px;
+    background-color: transparent;
+}
+
+
+
+
+#BookOfMonth{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 18% ;
+    margin-right: 20% ;
+    margin-bottom: 10%;
+    padding: 2rem;
+}
+
+#books{
+    margin-top: 1rem;
+    display: flex;
+    background-color: rgba(3,30,45,0.8) ;
+    flex-wrap: wrap;
+}
+
+#books div{
+    margin: 2rem;
+    width: 6rem;
+    height: 6rem;
+    background-color: white;
+    border: 3px rgba(3,30,45,0.8) solid;
+}
+
+
+#books div:hover{
+    margin: 2rem;
+    width: 6rem;
+    height: 6rem;
+    border: 3px white solid;
+    color: white;
+    background-color: rgba(3,30,45,0.8);
+
+}
+
+                                         /*footer of page*/
+
+.footer{
+    text-align: center;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(12, 53, 63, 0.9); 
+    color:white;
+    padding: 8px ; 
+    margin-bottom: 0;
+
+}
+
+.footer button{
+    border:2px rgb(3,40,75) solid;
+    background-color: white;
+    color: rgb(3,40,75);
+    font-size:large;
+    font-weight: 300;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+.footer button:hover{
+    background-color: rgb(3,40,75);
+    color: white;
+    border:2px white solid;
+}
+
+
+.footer div{
+    margin-top: 4rem;
+    font-size: large;
+    margin-bottom: 4rem;
+}
+
+.footer input {
+    width: 33rem;
+    height: 1.5rem;
+    font: 500;
+    font-size: 1rem;
+    padding-left: 1rem;
+    color: rgb(3,40,75);
+}
+
+.footer h3 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.footer span a{
+    color: white;
+    text-decoration: none;
+}
