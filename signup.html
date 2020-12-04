@@ -1,0 +1,91 @@
+<!DOCTYPE >
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+    BookShelf : new generation library
+</title>
+<link rel="stylesheet" type="text/css" href="style/style_2.css">
+</head>
+<body>
+<div id="header" width="100%">                                           <!--header of page -->
+    <table border=0px height="8%" align="Center" width="100%">
+        <TR>
+        <TD width="2%">
+        </TD>
+        <TD width="3%">
+            <a href="index.php"><img width="100%" src="images/logo.jpg" align="Left" id="logo"></a>
+        </TD>
+        <TD width="2%">
+            
+        </TD>
+        <TD width="30%">
+           BookShelf
+        </TD>
+        <TD width="53%"> 
+        </TD>
+
+        <TD width="6%">
+            <a href="signin.html" class="LogIn"><button >Log In</button></a>
+        </TD>
+        
+    </TR>
+    </table>  
+</div>
+<div class="headspace">
+                                                                <!--space below fixed header of page-->
+</div>
+
+                                                                  <!-- Main of log In / log out-->
+
+<div class="main">
+        <h1> Contributing Today <br> For Tomorrow  </h1><br><br>
+        <h2> Sign Up</h2> <br>
+        <div class="altsign"><button>Google</button><br><br></div>
+        <div class="altsign"><button>Facebook</button><br></div>
+        <br>
+        <hr>
+        <div class="form1">
+            <form action="server/server.php" method="post">
+                <div class="name">                  
+                    <input type="text" name="fname" placeholder=" first name" required>
+                    <input type="text" name="lname" placeholder=" last name" required>
+                </div>
+                <div class="email">
+                    <input type="email" name="email" placeholder=" youremail@email.com" required>
+                </div>
+                <div class="message">
+                    <input type="text" name="message" placeholder=" Enter password recovery code ">
+                </div>
+                <div class="contact">
+                    <input type="tel"  name="contact" placeholder=" contact no.">
+                </div>
+                <div class="password">
+                    <input type="password" name="password" placeholder=" *********" required>
+                </div>
+            
+        </div>
+        <br>
+        <div class="submit" id="submit" >
+            <button type="submit">Sign Up</button>
+        </div>
+
+    </form>
+
+        <div class="text1">
+            Already signed Up?
+            <span id="#user">
+                <a href="signin.html">Sign In</a>
+            </span>
+         </div>
+        <hr>        
+    
+        <div class="text2">
+            <p> By signing up you agree to our terms of service and privacy.
+            <br>We are always there to help you.</p>
+        </div>
+</div>
+
+
+</body>
+</html>
