@@ -13,11 +13,11 @@
 
 ::-webkit-scrollbar-thumb{
     border-left: 2px white solid;
-    background-color:  rgb(255, 150, 64);  
+    background-color:  rgba(0, 0, 0, 0.774);  
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background-color:   rgb(253, 130, 29); 
+    background-color:   grey; 
 }
 
 
@@ -29,7 +29,7 @@ body{
 
 #header{
     opacity: 1;
-    color: rgb(244,128,36);
+    color: grey;
     background-color: white;
     border-bottom: 4px whitesmoke solid;
     border-bottom-style: solid;
@@ -40,7 +40,7 @@ body{
     font-family: 'Architects Daughter', cursive;
     font-size: 2.5rem;
     font-weight: 100;
-    color: rgb(244,128,36);
+    color: black;
 }
 
 
@@ -50,7 +50,7 @@ body{
     padding: 6px;
     font-weight: 300;
     font-size: large;
-    color: rgb(244,128,36);
+    color: black;
     border: 0;
     border-radius: 6px;
     outline: none;
@@ -68,9 +68,9 @@ body{
     font-weight: 600;
     font-size: large;
     font-weight: 700;
-    color: rgb(244,128,36);
+    color: black;
     background-color: white;
-    border:2px rgb(244,128,36) solid;
+    border:2px grey solid;
     border-radius: 6px;
     cursor: pointer;
     outline: none;
@@ -78,8 +78,8 @@ body{
 
 .logIn button:hover{
     color: white;
-    background-color:rgb(244,128,36);
-    border: 3px rgb(244,128,36) solid;
+    background-color:black;
+    border: 3px black solid;
 }
 
 
@@ -87,10 +87,11 @@ body{
 
 
 .main {
+    opacity: 1;
     width: 100%;
     padding-top: 6rem;
-    background-color: rgb(244,128,36);
-    color: white;
+    background-color: rgb(224, 223, 223);
+    color: black;
     font-family: Arial, sans-serif;
     text-align: center;
     text-decoration: none;
@@ -106,7 +107,7 @@ body{
     margin-left: 26%;
     width: 50%;
     height: 1px;
-    color: white;
+    color: black;
     
 }
 
@@ -126,22 +127,21 @@ body{
 
 .altsign button{
     align-items: center;
-    border: 3px white solid ;
+    border: 3px rgba(128, 128, 128, 0.5) solid ;
     width: 20rem;
-    color: rgb(244,128,36);
+    color: black;
     padding-bottom: 1px;
     font-size: 1.4rem;
     border-radius: 20px;
     font-weight: 200;
     cursor: pointer;
-    background-color: white;
+    background-color: rgba(128, 128, 128, 0.5);
 }
 
 
 .altsign button:hover{
-    background-color: rgb(244,128,36) ;
-    outline: none;
-    color: white;
+
+    background-color: rgb(128, 128, 128) ;
 }
 
 
@@ -153,7 +153,7 @@ input::placeholder {
 input {
     border: 2px white solid;
     border-radius: 4px;
-    color: rgb(255, 94, 0);
+    color: black;
     margin: 0.5rem;
     font-size: large;
     padding-left: 13px ;
@@ -171,10 +171,10 @@ input {
 .submit button{
     cursor: pointer;
     align-items: center;
-    background-color:rgb(244,128,36);
-    border: 3px  white solid ;
+    background-color:grey;
+    border: 3px gray solid ;
     width: 20rem;
-    color: white;
+    color: black;
     padding-bottom: 1px;
     font-size: 1.4rem;
     border-radius: 10px;
@@ -184,8 +184,7 @@ input {
 
 
 .submit button:hover{
-    background-color:white;
-    color: rgb(244,128,36);
+    background-color:rgb(97, 97, 97);
 }
 
 #PasswordForgot{
@@ -193,9 +192,9 @@ input {
     cursor: pointer;
     font-weight: 500;
     font-size: 1rem;
-    color: white;
+    color: black;
     border:0;
-    background-color: rgb(253, 130, 29);
+    background-color: rgb(224, 223, 223);
 }
 
 
@@ -208,7 +207,7 @@ input {
 
 #forgotPassword{
     visibility: hidden;
-    border: 2px grey solid;
+    border: 2px black solid;
     border-radius: 8px;
     background-color: white;
     width: fit-content;
@@ -221,13 +220,13 @@ input {
 }
 
 .forgot form input{
-    border: 1px grey solid;
+    border: 1px black solid;
 }
 
 #Forgotsubmit button{
     border: 2x whitesmoke solid;
     cursor: pointer;
-    background-color:rgb(244,128,36);
+    background-color:black;
     width: 20rem;
     color: white;
     padding: 2px;
@@ -237,8 +236,8 @@ input {
 }
 
 #Forgotsubmit button:hover{
-    border: 2x rgb(244,128,36) solid;
-    color: rgb(244,128,36);
+    border: 2x black solid;
+    color: black;
     background-color: white;
 }
 
@@ -261,7 +260,7 @@ input {
     padding-bottom: 20px;
 }
 .text1 span a{
-    color: white;
+    color: black;
     font-weight: 600;
     text-decoration: none;
 }
@@ -281,8 +280,8 @@ input {
 
 
 .form button{
-    background-color:  rgb(244,128,36);
-    border: 2px whitesmoke solid ;
+    background-color: grey;
+    border: 2px black solid ;
     color: white;
     width: 10rem;
     padding-top: 1px;

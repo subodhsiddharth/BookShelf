@@ -8,16 +8,17 @@
 </title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="shortcut icon" src="images/logo.ico" type="image/icon type">
 <link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-<div id="header">                                           <!--do not touch-->
+<div id="header" >                                           <!--do not touch-->
     <table border=0px height="8%" align="Center" width="100%">
         <TR>
         <TD width="2%">
         </TD>
         <TD width="3%">
-            <img width="100%" src="images/logo.jpg" align="Left" id="logo">
+            <img width="100%" src="images/logo.png" align="Left" id="logo">
         </TD>
         <TD width="2%">
             
@@ -72,21 +73,29 @@
 <div id="back"> 
 </div>
 
-<div id="main">               <!--do not touch-->
-
-
 <div id="flex-box">
     <button id="cross"><img src="images/cross.jpg"></button>
             INDEX
-    <div>Most Rated</div>
-    <div>New Writers</div>
-    <div>Novels</div>
-    <div>Language</div>
-    <div>Education</div>
-    <div>Fiction</div>
+    <div id="RefBookStore">Book Store</div>
+    <div id="RefProfile">Profile</div>
+    <div id="RefBookShelf">Project BookShelf</div>
+    <div id="RefOurTeam">Our Team</div>
     
 </div>
 
+<div id="article"> 
+    <h1>Why to use BookShelf?</h1>
+    <div>
+        <h2>we do not show adds  bla bla ba  bla bla ba  bla bla ba </h2>
+        <h2>we do not show adds  bla bla ba  bla bla ba </h2>
+        <h2>we do not show adds  bla bla ba   bla bla ba</h2>
+        <h2>we do not show adds  bla bla ba  bla bla ba bla bla ba</h2>
+    </div>
+    
+
+</div>
+
+<div id="main">               <!--this box contains running booklist-->
 
 <div id="BookOfMonth">
     <h1>Books Of Month</h1>
@@ -133,21 +142,63 @@
         <div>Fiction</div>
     </div>
 </div>
-</div>                                             <!--Footer-->
 
-<div class="footer" >
+<div id="BookOfMonth">
+    <h1>Language Books</h1>
+    <div id="books">
+        <div>Most Rated</div>
+        <div>New Writers</div>
+        <div>Novels</div>
+        <div>Language</div>
+        <div>Education</div>
+        <div>Fiction</div>
+    </div>
+</div>
+</div>                                          
+
+
+<div id="article"> 
+    <h1>Idea of BookShelf</h1>
+    <div>
+        <h2>we do not show adds  bla bla ba  bla bla ba  bla bla ba </h2>
+        <h2>we do not show adds  bla bla ba  bla bla ba </h2>
+        <h2>we do not show adds  bla bla ba   bla bla ba</h2>
+        <h2>we do not show adds  bla bla ba  bla bla ba bla bla ba</h2>
+    </div>
+</div>
+
+<div id="scrollup">
+    <a href="#"><img src="images/scroll.jpg"></a>
+</div>
+
+<div class="footer" >                                    <!--Footer-->
 
         <div>
             <span>
-                <p>Join our prime program</p><br>
+                <p>Join our shelf program</p><br>
             </span>
-            <p>Get books recomendation and access to our newsletter.</p><br>
+            <p>Get books recomendation and access to our newsletter</p><br>
             <input type="email" name="email" placeholder=" your@email.com">
             <button>Subscribe</button>
         </div>
-    <hr>
+        <div id="footerTable">
+        <table>
+            <tr>
+                <td>
+                    <a href="aboutus.html">About Us</a><br><br>
+                    <a href="https://github.com/subodhsiddharth/BookShelf">Project BookShelf</a>
+                </td>
+                <td>
 
-    
+                </td>
+                <td>
+                <a href="mailto:consfreq@yahoo.com">Have a query</a><br><br>
+                <a href="">Contact Us</a>
+                </td>
+            </tr>
+        </table>
+        </div>
+    <hr>
             <br>
             Need our Help !!<br><br>
         <span>
